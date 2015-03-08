@@ -16,6 +16,8 @@
 		E52D54A11AAA0E12004A2CF1 /* CardGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D54A01AAA0E12004A2CF1 /* CardGameTests.m */; };
 		E52D54AB1AAB2345004A2CF1 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D54AA1AAB2345004A2CF1 /* Card.m */; };
 		E52D54AF1AAB2FB9004A2CF1 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D54AE1AAB2FB9004A2CF1 /* Deck.m */; };
+		E52D54B11AAB463A004A2CF1 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D54B01AAB463A004A2CF1 /* PlayingCard.m */; };
+		E52D54B41AAB53EB004A2CF1 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D54B31AAB53EB004A2CF1 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		E52D54AC1AAB235A004A2CF1 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		E52D54AD1AAB2FA5004A2CF1 /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		E52D54AE1AAB2FB9004A2CF1 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		E52D54B01AAB463A004A2CF1 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		E52D54B21AAB4646004A2CF1 /* PlayingCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		E52D54B31AAB53EB004A2CF1 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		E52D54B51AAB53FD004A2CF1 /* PlayingCardDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,10 @@
 				E52D54AA1AAB2345004A2CF1 /* Card.m */,
 				E52D54AD1AAB2FA5004A2CF1 /* Deck.h */,
 				E52D54AE1AAB2FB9004A2CF1 /* Deck.m */,
+				E52D54B51AAB53FD004A2CF1 /* PlayingCardDeck.h */,
+				E52D54B31AAB53EB004A2CF1 /* PlayingCardDeck.m */,
+				E52D54B21AAB4646004A2CF1 /* PlayingCard.h */,
+				E52D54B01AAB463A004A2CF1 /* PlayingCard.m */,
 				E52D548E1AAA0E11004A2CF1 /* Main.storyboard */,
 				E52D54911AAA0E11004A2CF1 /* Images.xcassets */,
 				E52D54931AAA0E11004A2CF1 /* LaunchScreen.xib */,
@@ -229,9 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52D54B11AAB463A004A2CF1 /* PlayingCard.m in Sources */,
 				E52D54AF1AAB2FB9004A2CF1 /* Deck.m in Sources */,
 				E52D548D1AAA0E11004A2CF1 /* ViewController.m in Sources */,
 				E52D548A1AAA0E11004A2CF1 /* AppDelegate.m in Sources */,
+				E52D54B41AAB53EB004A2CF1 /* PlayingCardDeck.m in Sources */,
 				E52D54871AAA0E11004A2CF1 /* main.m in Sources */,
 				E52D54AB1AAB2345004A2CF1 /* Card.m in Sources */,
 			);
